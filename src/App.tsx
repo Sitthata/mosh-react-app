@@ -1,12 +1,15 @@
+import Alert from "./assets/components/Alert";
 import ListGroup from "./assets/components/ListGroup";
 
-function App () {
+function App() {
   return (
-  <div>
-    <ListGroup />
-  </div>
-  )
-  
+    <div>
+      <Alert>
+        <span>Alert</span>
+        <h1>Hello</h1>
+      </Alert>
+    </div>
+  );
 }
 
 export default App;
